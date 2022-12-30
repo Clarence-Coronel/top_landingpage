@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    height: 800px;
+    background-color: #1F2937;
+}
+
+header{
+    padding: 0 15%;
+    flex: 1;
+}
+
+.content1, .content2, .content3, footer{
+    padding: 0 25%;
+    flex: 1;
+}
+
+/* nav */
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 40px 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li{
+    list-style: none;
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.first{
+    margin-right: auto;
+    font-weight: 1000;
+    font-size: 24px;
+}
+
+/* awesome  */
+
+.awesome-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5%;
+    margin: 10% 0;
+}
+
+
+.text{
+    flex: 1;
+}
+
+.text h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: -3%
+}
+
+.text p{
+    color: rgb(204, 201, 201);
+    font-size: 1.2rem;
+}
+
+.image{
+    align-self: stretch;
+    flex: 1;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border: 0;
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+
+/* First Content */
+
+.content1{
+    background-color: white;
+    height: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    
+}
+
+.content1 h2{
+    font-size: 2.5rem;
+    font-weight: 1000;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 4%;
+}
+.subtext-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+.sc{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+}
+.shape{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 1rem;
+}
+
+/* Second Content */
+.content2{
+    background-color: #E5E7EB;
+}
+
+.content2 p{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.content2 p span{
+    
+}
