@@ -16,12 +16,12 @@ header{
     background-color: #1F2937;
 }
 
-header{
+header, .content3{
     padding: 0 15%;
     flex: 1;
 }
 
-.content1, .content2, .content3, footer{
+.content1, .content2, footer{
     padding: 0 25%;
     flex: 1;
 }
@@ -148,13 +148,69 @@ button{
 /* Second Content */
 .content2{
     background-color: #E5E7EB;
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .content2 p{
     font-size: 36px;
     font-style: italic;
+    margin-bottom: -1%;
 }
 
-.content2 p span{
-    
+.content2 span{
+    font-size: 26px;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+/* Third Content */
+
+.content3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.content-container{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    border-radius: 0.7rem;
+    padding: 3% 1%;
+}
+
+.call-txt{
+    color: white;
+}
+
+.call-txt h2, .call-txt p{
+    margin: 0;
+    padding: 0;
+}
+
+.call-txt p{
+    color: rgb(224, 223, 223);
+    font-size: 1.2rem;
+}
+
+.modi{
+    width: 15%;
+    border: 2px solid white;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+    font-size: 1.2rem;
+    padding: 1% 0;
 }
